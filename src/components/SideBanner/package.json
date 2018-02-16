@@ -1,0 +1,6 @@
+{
+  "name": "SideBanner",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./SideBanner.js"
+}

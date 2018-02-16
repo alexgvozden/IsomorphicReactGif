@@ -1,0 +1,111 @@
+
+/**
+ * React Starter Kit (https://www.reactstarterkit.com/)
+ *
+ * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.txt file in the root directory of this source tree.
+ */
+
+@import '../variables.css';
+
+
+/*common styles !!!YOU DON'T NEED THEM */
+.container {
+  margin: 60px auto 0px auto;
+  text-align: center;
+}
+.container h1 {
+    text-transform: uppercase;
+    color: var(--basic-dark-color);
+    letter-spacing: 3px;
+}
+.container span {
+      display: inline-block;
+}
+.container:before, .container:after {
+	content: "";
+	display: block;
+	width: 34px;
+	height: 2px;
+	background-color: var(--basic-dark-color);
+	margin: 0px 0px 0px 2px;
+}
+
+
+.effect {
+  background: transparent;
+
+}
+
+.effect h2 {
+	color: var(--basic-light-color);
+	letter-spacing: 3px;
+} 
+.effect:nth-child(2n+1) {
+
+}   
+.effect:nth-child(2n+1) h2 {
+	color: var(--basic-dark-color);
+}
+
+.message {
+  font-size:16px;
+  text-align:center;
+  margin-bottom:4px;
+}
+  
+  
+.buttons {
+  display: flex;
+	justify-content: center;
+
+}
+
+.buttons a:last-child {
+	margin-right: 0px;
+}
+  
+.effect a {
+    text-decoration: none !important;
+    color: var(--basic-light-color);
+    width: 40px;
+		height: 40px;
+		margin-top:2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    margin-right: 10px;
+    font-size: var(--font-size);
+    overflow: hidden;
+    position: relative;
+}    
+
+@media screen and (max-width: 720px) {
+  .effect a {
+		font-size: 16px;
+		margin-right:4px;
+	}
+}
+
+.effect i {
+	position: relative;
+	z-index: 3;
+}
+.fb {
+	background-color: var(--fb-color);
+}    
+.tw {
+	background-color: var(--tw-color);
+}
+    
+
+    
+    .pinterest {
+      background-color: var(--pinterest);
+    }
+    
+
+

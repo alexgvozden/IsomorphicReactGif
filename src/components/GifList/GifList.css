@@ -1,0 +1,33 @@
+.listItem {
+  width: 100%;
+  margin-bottom: 80px;
+  margin-top: 0px;
+  padding: 0;
+  display: "flex";
+  flex-direction: "column";
+  justify-content: "flex-end";
+}
+
+.listItemImg {
+  width: 100%; 
+  margin: 0; 
+  padding: 0;
+}
+
+.download {
+  text-align: right; 
+  font-size: 13px; 
+  padding-top: 6;
+}
+
+@media screen and (max-width: 720px) {
+  .listItem {
+    margin-bottom: 60px;
+  }
+  .listItem, .listItemImg {
+    width:100%;
+  }
+  .download{
+    font-size:12px;
+  }
+}
